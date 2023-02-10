@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andrimar</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <h1 style="text-align: center;">ANDRIMAR</h1>
+        <header>
+            <nav>
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+            <a href="https://www.facebook.com/ANDRIMAR.EC/" class="logo">
+                <img src="img/Logo.png" alt="Logo de la compañia">
+            </a>
+        </header>
+    
+        <main class="contenido-principal contenedor">
+            <h2 class="text-center">Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Tus Datos</legend>
+                        <div class="campo"> 
+                            <label for="nombre">Nombre: </label>
+                            <input id="nombre" type="text" placeholder="Tu nombre" required> 
+                        </div>
+    
+                        <div class="campo">
+                            <label for="asunto">Asunto</label>
+                            <input id="asunto" type="text" placeholder="Tu Asunto">
+                        </div>
+    
+                        <div class="campo">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" placeholder="Tu Email">
+                        </div>
+    
+                        <div class="campo">
+                            <label for="tel">Telefono</label>
+                            <input id="tel" type="tel" placeholder="Tu Teléfono">
+                        </div>
+    
+                        <div class="campo">
+                            <label for="tel">Mensaje: </label>
+                            <textarea rows="10" cols="20" ></textarea>
+                        </div>
+                </fieldset>
+                    
+                <fieldset>
+                    <legend>Ciudad</legend>
+                    <div class="campo">
+                        <label for="ciudad">Ciudad</label>
+                        <select id="ciudad">
+                            <option selected disabled>-- Seleccione --</option> 
+                            <option value="CU">Cuenca</option>
+                            <option value="GU">Guayaquil</option>
+                            <option value="QU">Quito</option>
+                            <option value="SA">Santo Domingo</option>
+                            <option value="IB">Ibarra</option>
+                            <option value="LA">Latacunga</option>
+                            <option value="AM">Ambato</option>
+                        </select>
+                    </div>
+                </fieldset>
+                    
+                <fieldset>
+    
+                    <legend>Información Extra</legend>
+    
+                    <div class="campo">
+                        <label for="cliente">Cliente</label>              
+                        <input id="cliente" type="radio" name="tipo" value="cliente">
+                    </div>
+    
+                    <div class="campo">
+                        <label for="proveedor">Proveedor</label>
+                        <input id="proveedor" type="radio" name="tipo" value="proveedor">
+                    </div>
+    
+                    <div class="campo"> 
+                        <label for="categoria">Productos de Interes</label>
+                        <input list="categorias" name="categorias">
+                        <datalist id="categorias">
+                            <option value="Pulpa de cangrejo">
+                            <option value="Uña de cangrejo">
+                            <option value="Pulpo">
+                            <option value="Almeja en cascara">
+                            <option value="Mejillon en cascara">
+                        </datalist>
+                    </div>
+    
+                </fieldset>
+                <input class="btn" type="submit" value="Enviar Formulario">
+            </form>
+    
+        </main>
+    
+        <footer>
+            <p>Copyright © 2022 Ricardo Lazo, Adrian Ramos, Ednan Merino, Steven Achig, John Limones, todos los derechos reservados.</p>
+            <p>Dirección: Mariana de Jesús, Ecuador · El Condado, Ecuador · Tumbaco, Ecuador.</p>
+        </footer>
+    
+    </body>
+</html>

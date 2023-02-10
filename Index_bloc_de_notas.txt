@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andrimar</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            margin:0;
+        }
+        h1{
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 0px;
+            
+        }
+        header{
+            display:flex;
+            min-height: 70px;
+            background-color: gray;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .logo img{
+            height: 80px;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        nav a{
+            font-weight: 600;
+            padding-right: 10px;
+        }
+        nav a:hover{
+            color:cornflowerblue;
+        }
+
+        @media (max-width:700px){
+            header{
+                flex-direction: column;
+            }
+
+            nav{
+                padding:10px 0px;
+            }
+        }
+
+        .container{
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            float: left;
+            background-color: lightsteelblue;
+        }
+        .titulo{
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            margin: 30px;
+            font-size: 30px;
+            color: white;
+        }
+        .caja img{
+            width: 200px;
+            height: 280px;
+            border-radius: 20px;
+        }
+        .caja{
+            margin: 15px;
+        }
+        .caja p{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        aside{
+            width: 30%;
+            background-color: aquamarine;
+            float: left;
+            text-align: center;
+            font-weight: bold;
+        }
+        aside img{
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+        }
+        .lol{
+            width: 300px;
+            height: 316px;
+        }
+        footer{
+            width: 100%;
+            text-align: center;
+            float:right;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">ANDRIMAR</h1>
+        <header>
+            <nav>
+                <a href="" class="nav-link">Inicio</a>
+                <a href="" class="nav-link">Sobre Nostros</a>
+                <a href="" class="nav-link">Contacto</a>
+            </nav>
+            <a href="https://www.facebook.com/ANDRIMAR.EC/" class="logo">
+                <img src="img/Logo.png" alt="Logo de la compañia">
+            </a>
+        </header>
+        
+        <div class="container">
+            <h2 class="titulo" face="georgia">CATALOGO DE PRODUCTOS</h2>
+            <div class="caja"> <img src="img/Producto2.jpeg" alt="Producto1"><p>Producto 1</p> <p>Almeja </p> <p>Pulpa </p> <p>$3.50</p> </div>
+            <div class="caja"> <img src="img/Producto3.jpeg" alt="Producto2"><p>Producto 2</p> <p>Almeja </p> <p>Ploma/50u </p> <p>$3.50</p> </div>
+            <div class="caja"> <img src="img/Producto4.jpeg" alt="Producto3"><p>Producto 3</p> <p>Pulpa de Cangrejo </p><p>Libra $11.00</p> <p>Kilo $22.00</p> </div>
+            <div class="caja"> <img src="img/Producto5.jpeg" alt="Producto4"><p>Producto 4</p> <p>Uñas de Cangrejo </p> <p>Libra $13.50</p> <p>Kilo $27.00</p> </div>
+            <div class="caja"> <img src="img/Producto6.jpeg" alt="Producto5"><p>Producto 5</p> <p>Mejillon </p> <p>50 unidades $3.50 </p> <p>Pulpa Mejillon $3.50</p> </div>
+            <div class="caja"> <img src="img/Producto7.jpeg" alt="Producto6"><p>Producto 6</p> <p>Camarón </p> <p>P y D talla 31 $4.80 </p> <p>P y D talla 28 $5.00</p> </div>
+        </div>
+        <aside>
+            <h2 face="times new roman">PROMOCIONES</h2>
+            <p>Promoción 1 </p> <img src="img/Promoción1.jpeg" alt="Promoción 1">
+            <p>Promoción 2 </p> <img src="img/Promoción2.jpeg" alt="Promoción 2">
+            <p class="lol"></p>
+        </aside>
+    </body>
+
+
+    <footer>
+        <p>Copyright © 2022 Ricardo Lazo, Adrian Ramos, Ednan Merino, Steven Achig, John Limones, todos los derechos reservados.</p>
+        <p>Dirección: Mariana de Jesús, Ecuador · El Condado, Ecuador · Tumbaco, Ecuador.</p>
+    </footer>
+</html>
